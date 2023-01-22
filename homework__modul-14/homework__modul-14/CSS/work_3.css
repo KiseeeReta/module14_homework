@@ -1,0 +1,51 @@
+body {
+	margin: 15px 0 0 15px;
+}
+.inp-work {
+	margin-left:150px ;
+	border: solid 2px burlywood;
+	border-radius: 5px;
+	width: 165px;
+	font-size: 16px;
+}
+.inp-work:focus {
+	outline: none;
+	box-shadow: 0 0 7px;
+}
+.block-btn-work {
+	margin: 10px 0 0 195px;
+}
+.btn-work {
+	padding: 5px 25px;
+	color: burlywood;
+	background: white;
+	border: solid 2px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.btn-work:hover {
+	background: black;
+	transition: all 800ms;
+}
+.block-text-work {
+	margin: 10px 0 0 135px;
+	color: red;
+	font-size: 14px;
+}
+.result-work {
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	margin-top: 5px;
+}
+.card {
+	width: 200px;
+	margin: 20px;
+}
+
+.card-image {
+	display: block;
+	width: 200px;
+	height: 150px;
+}

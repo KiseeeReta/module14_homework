@@ -1,0 +1,42 @@
+body {
+	margin: 15px 0 0 15px;
+}
+.inpone {
+	margin-left:150px ;
+	border: solid 2px burlywood;
+	border-radius: 5px;
+	width: 165px;
+	font-size: 16px;
+}
+.inptwo {
+	border: solid 2px burlywood;
+	border-radius: 5px;
+	width: 165px;
+	font-size: 16px;
+}
+.inpone:focus, .inptwo:focus {
+	outline: none;
+	box-shadow: 0 0 7px;
+}
+.btn {
+	margin: 10px 0 0 270px;
+	padding: 5px 25px;
+	color: burlywood;
+	background: white;
+	border: solid 2px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.btn:hover {
+	background: black;
+	transition: all 800ms;
+}
+.text {
+	margin: 10px 0 0 185px;
+	color: red;
+	font-size: 14px;
+}
+.result {
+	margin: 15px 0 0 170px;
+}
